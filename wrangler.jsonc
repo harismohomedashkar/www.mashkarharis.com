@@ -1,14 +1,20 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "www-mashkarharis-com",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-11-01",
-  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
-  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "invocation_logs": true
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "www-mashkarharis-com",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2026-11-01",
+    "compatibility_flags": [
+        "nodejs_compat",
+        "global_fetch_strictly_public"
+    ],
+    "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+    },
+    "observability": {
+        "logs": {
+            "enabled": true,
+            "invocation_logs": true
+        }
     }
-  }
 }

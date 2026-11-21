@@ -1,6 +1,6 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "www-mashkarharis-com",
+    "name": "www-harisspace-com",
     "main": ".open-next/worker.js",
     "compatibility_date": "2026-11-01",
     "compatibility_flags": [
